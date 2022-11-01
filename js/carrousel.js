@@ -1,3 +1,3 @@
 (function () {
-	console.log("Carrousel");
+	console.log("Carrousel - test carrousel.js");
 }());

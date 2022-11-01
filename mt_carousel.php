@@ -43,15 +43,12 @@ function emc_enqueue()
 function generer_boite()
 {
     $contenu = "
-	<style>
-		.carousel {
-			border: 2px solid black;
-			background-color: darkseagreen;
-			width: 200px;
-			height: 200px;
-		}
-	</style>
-	<div class='carrousel'>Re-voici l'extension Carrousel</div>";
+    <button class='btn_modale'>boîte modale</button>
+    <div class='carrousel'>
+        <button class='btn_fermer'>X</button>
+        <figure class='carrousel__figure'></figure>
+        <form class='carrousel__form'></form>
+    </div>";
     return $contenu;
 }
 
